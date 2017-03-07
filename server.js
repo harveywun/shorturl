@@ -2,7 +2,9 @@ var dotenv = require('dotenv');
 var express = require('express');
 var app = express();
 
-var appurl = "https://fcc-project-hwun.c9users.io/";
+//var appurl = "https://fcc-project-hwun.c9users.io/";
+var appurl = "https://fcc-shortenurl.herokuapp.com/";
+
 
 var mongodb = require('mongodb');
 var MongoClient = mongodb.MongoClient;

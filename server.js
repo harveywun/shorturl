@@ -17,8 +17,6 @@ var tempdoc = {
 
 //dotenv.config();
 var url = process.env.MONGOLAB_URI;
-//var url = "mongodb://harvey:temppassw0rd@ds119210.mlab.com:19210/shorturldb";
-
 
 function addMap(newDoc) {
   MongoClient.connect(url, function(err, db) {

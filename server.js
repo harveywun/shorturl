@@ -16,7 +16,8 @@ var tempdoc = {
 };
 
 dotenv.config();
-var url = process.env.MONGOLAB_URI;
+//var url = process.env.MONGOLAB_URI;
+var url;
 
 function addMap(newDoc) {
   MongoClient.connect(url, function(err, db) {
